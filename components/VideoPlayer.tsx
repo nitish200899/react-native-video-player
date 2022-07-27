@@ -2,7 +2,7 @@ import React,{FC,useState} from 'react';
 import {View,Text} from 'react-native';
 import Video from 'react-native-video';
 
-import VideoPlayer from 'react-native-video-controls'
+
 
 type BufferProps = {isBuffering : boolean,target : number}
 
@@ -16,12 +16,12 @@ const VideoPlayerComponent : FC = () =>{
     }
 
     return (
-            <VideoPlayer
+            <Video
                 source={{ uri: 'https://www.w3schools.com/html/mov_bbb.mp4' }}
                 style={{ width: '100%' , height: 218 }}
                 controls={true}
-                fullscreen={false}
-                resizeMode="contain"
+                fullscreen = {true}
+                resizeMode = "cover"
                 onBuffer={BufferHandler}               
                 onError={videoError} 
             />   
