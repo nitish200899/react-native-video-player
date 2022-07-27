@@ -1,7 +1,7 @@
 import React,{FC} from 'react'
 import {View,SafeAreaView,Text,StyleSheet} from 'react-native'
 import VideoPlayerComponent from './components/VideoPlayer'
-//abc
+//all the imports
 
 const App : FC = ()=>{
   return (
