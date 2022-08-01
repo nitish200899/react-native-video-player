@@ -2,7 +2,7 @@ import React,{FC,useState} from 'react';
 import {View,Text} from 'react-native';
 import Video from 'react-native-video';
 
-
+//abc
 
 type BufferProps = {isBuffering : boolean,target : number}
 
