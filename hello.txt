@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 This is hello.txt
 
 This is main changes
+=======
+This is hello.txtclear
+
+This is func changes
+>>>>>>> func
